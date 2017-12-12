@@ -5,9 +5,9 @@
 	<link rel="stylesheet" href="./libs/angular-filemanager-fkoester/dist/angular-filemanager.min.css">
 </head>
 <body ng-app="myApp">
-	<div class="container" ng-controller="AppController">
-		<angular-filemanager></angular-filemanager>
-	</div>
+	<!-- FileManger -->
+	<angular-filemanager ng-if="!$root.isLoading"></angular-filemanager>
+
 	<script type="text/javascript" src="./libs/jquery/dist/jquery.min.js"></script>
 
 	<script type="text/javascript" src="./libs/angular/angular.min.js"></script>
@@ -17,6 +17,5 @@
 	<script type="text/javascript" src="./libs/angular-filemanager-fkoester/dist/angular-filemanager.min.js"></script>
 
 	<script type="text/javascript" src="./app/app.js"></script>
-	<script type="text/javascript" src="./app/controllers.js"></script>
 </body>
 </html>
