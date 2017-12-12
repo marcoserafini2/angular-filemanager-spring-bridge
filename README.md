@@ -1,2 +1,2 @@
 # angular-filemanager-spring-bridge
-A bridge for angular-filemanager using Java and Spring
+This project provides a backend for [angular-filemanager](https://github.com/joni2back/angular-filemanager/) UI written with in Java with [Spring-Boot](https://projects.spring.io/spring-boot/).
